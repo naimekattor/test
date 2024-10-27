@@ -1,0 +1,45 @@
+.awesome span{
+  font-size: 60px;
+  font-weight: bold;
+  
+}
+.contact-form{
+  display: flex;
+  margin-top: 4rem;
+  margin-bottom: 60px ;
+}
+
+.c-right{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  flex: 1;
+}
+.c-right>form{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+}
+.c-right .user{
+  width: 20rem;
+  height: 2rem;
+  padding: 0.3rem;
+  outline: none;
+  border: 2px solid crimson;
+  border-radius: 8px;
+  font-size: 16px;
+}
+textarea{
+  height: 4rem!important;
+}
+
+.Con-button:hover{
+  background: white;
+  color: green;
+  cursor: pointer;
+  border: 1px solid black;
+}
+.swiper-pagination-bullet{
+  background: gray;
+}
